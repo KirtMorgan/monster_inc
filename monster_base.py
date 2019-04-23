@@ -8,10 +8,10 @@ class Monster_base():
          self.name = name_input
 
     def attack(self, damage_dealt = 5):
-        return'The monster attacks and deals a total damage of', damage_dealt
+        return'The monster attacks and deals a total damage of ', damage_dealt
     def defend(self):
         return'The monster raises its limbs to defend its body and face'
     def death_roar(self, defence_loss = 20):
-        return'The monster lets out a horrible roar leaving your ears ringing, your defence drops by', defence_loss
+        return'The monster lets out a horrible roar leaving your ears ringing, your defence drops by ', defence_loss
     def show_type(self):
         return self.__monster_type
